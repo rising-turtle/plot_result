@@ -5,10 +5,10 @@
 
 %% load data
 
-gt = load('./data/lab_motion4/ground_truth.csv'); 
-vins_mono = load('./data/lab_motion4/VINS-Mono.csv'); 
-vins_rgbd = load('./data/lab_motion4/VINS-RGBD.csv'); 
-dui_vio = load('./data/lab_motion4/DUI-VIO.csv'); 
+gt = load('./data/lab_motion2/ground_truth.csv'); 
+vins_mono = load('./data/lab_motion2/VINS-Mono.csv'); 
+vins_rgbd = load('./data/lab_motion2/VINS-RGBD.csv'); 
+dui_vio = load('./data/lab_motion2/DUI-VIO.csv'); 
 
 t_gt = gt(:,1); 
 t_mono = vins_mono(:,1); 
